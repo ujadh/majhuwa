@@ -1,0 +1,19 @@
+{
+  "name": "majhuwa-printing-press",
+  "version": "1.0.0",
+  "description": "A website for Majhuwa Printing Press",
+  "main": "index.html",
+  "scripts": {
+    "start": "live-server",
+    "build-css": "sass --watch scss/main.scss:css/style.css",
+    "build": "npm run build-css"
+  },
+  "devDependencies": {
+    "sass": "^1.83.0"
+  },
+  "dependencies": {
+    "bootstrap": "^4.6.2",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.16.1"
+  }
+}
